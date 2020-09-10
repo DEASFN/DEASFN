@@ -76,15 +76,15 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Visulization
-1. Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
+#### Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/comparison.png)
 
-1. Some positive cases of DEASFN on our two benchmarks
+#### Some positive cases of DEASFN on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
 ## Result
-1. The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+* The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
 
 <table>
     <tr>
@@ -122,7 +122,8 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
     </tr>
 </table>
 
-1. The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+* The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+
 |Action|WiSPPN|PIW|**DEASFN**|                       
 | :------| :------: | :------: | :------: |
 |Walk|23.58%|39.87%|**61.14%**|
