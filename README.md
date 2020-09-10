@@ -52,10 +52,10 @@
         <td align="center">41,238</td>
     </tr>
     <tr>
-        <td align="center">Total</td>
-        <td align="center">87,635</td>
-        <td align="center">Total</td>
-        <td align="center">238,191</td>
+        <td align="center"><b>Total</b></td>
+        <td align="center"><b>87,635</b></td>
+        <td align="center"><b>Total</b></td>
+        <td align="center"><b>238,191</b></td>
     </tr>
     
 </table>
