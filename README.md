@@ -11,6 +11,9 @@
 
 * [Result](#result)
 
+* [Reference](#reference)
+
+
 ## Architecture
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/architecture.png)
 
@@ -73,15 +76,15 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Visulization
-* Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
+1. Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/comparison.png)
 
-* Some positive cases of DEASFN on our two benchmarks
+1. Some positive cases of DEASFN on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
 ## Result
-* The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+1. The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
 
 <table>
     <tr>
@@ -119,7 +122,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
     </tr>
 </table>
 
-
+1. The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
 |Action|WiSPPN|PIW|**DEASFN**|                       
 | :------| :------: | :------: | :------: |
 |Walk|23.58%|39.87%|**61.14%**|
@@ -129,7 +132,6 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 
-
-[1] Fei Wang, Stanislav Panev, Ziyi Dai, Jinsong Han, and Dong Huang. 2019. Can wifi estimate person pose?arXiv preprint arXiv:1904.00277(2019).
-
-[2] Fei Wang, Sanping Zhou, Stanislav Panev, Jinsong Han, and Dong Huang. 2019.Person-in-WiFi: Fine-grained person perception using WiFi. InProceedings of theIEEE International Conference on Computer Vision. 5452–5461.
+## Reference
+* [1] Fei Wang, Stanislav Panev, Ziyi Dai, Jinsong Han, and Dong Huang. 2019. Can wifi estimate person pose?arXiv preprint arXiv:1904.00277(2019).
+* [2] Fei Wang, Sanping Zhou, Stanislav Panev, Jinsong Han, and Dong Huang. 2019.Person-in-WiFi: Fine-grained person perception using WiFi. InProceedings of theIEEE International Conference on Computer Vision. 5452–5461.
