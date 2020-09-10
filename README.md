@@ -120,17 +120,14 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 </table>
 
 
-|Method|single-person|multi-people|                       
-| :------| :------: | :------: |
-|WiSPPN[1]|  69.82%    | X   |
-|Person-in-WiFi[2] | 77.06% | 61.58%|
-|**MDT-GCN(ours)**|**82.26%**|**71.58%**|
+|Action|WiSPPN|PIW|**DEASFN**|                       
+| :------| :------: | :------: | :------: |
+|Walk|23.58%|39.87%|**61.14%**|
+|Wave|25.92%|33.06%|**45.81%**|
+|Jump|22.12%|37.91%|**58.11%**|
+|Run|15.82%|20.99%|**35.15%**|
 
-|Method|through-wall|
-| :------| :------: |
-|WiSPPN[1]|  58.86%    |
-|Person-in-WiFi[2] | 73.67%|
-|**MDT-GCN(ours)**|**80.72**%|
+
 
 
 [1] Fei Wang, Stanislav Panev, Ziyi Dai, Jinsong Han, and Dong Huang. 2019. Can wifi estimate person pose?arXiv preprint arXiv:1904.00277(2019).
