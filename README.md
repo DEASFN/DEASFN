@@ -89,33 +89,33 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
         <td align="center">Benchmark</td> 
         <td align="center">WiSPPN[1]</td> 
         <td align="center">PIW[2]</td> 
-        <td align="center">**DEASFN**</td> 
+        <td align="center"><b>DEASFN</b></td> 
    </tr>
     <tr>
         <td align="center" rowspan='2'>MPJPE</td>
         <td align="center">SPE</td>
         <td align="center">44.16</td>
         <td align="center">78.88</td>
-        <td align="center">**37.34**</td>
+        <td align="center"><b>37.34</b></td>
     </tr>
     <tr>
         <td align="center">GPE</td>
         <td align="center">X</td>
         <td align="center">119.60</td>
-        <td align="center">**44.14**</td>
+        <td align="center"><b>44.14</b></td>
     </tr>
     <tr>
         <td align="center" rowspan='2'>PCK@20</td>
         <td align="center">SPE</td>
         <td align="center">21.86%</td>
         <td align="center">32.96%</td>
-        <td align="center">**50.05%**</td>
+        <td align="center"><b>50.05%</b></td>
     </tr>
     <tr>
         <td align="center">GPE</td>
         <td align="center">X</td>
         <td align="center">27.64%</td>
-        <td align="center">*43.98%*</td>
+        <td align="center"><b>43.98%</b></td>
     </tr>
 </table>
 
