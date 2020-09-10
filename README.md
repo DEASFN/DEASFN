@@ -125,7 +125,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 * Comparative results against other methods on our SPE benchmark (PCK@20):
 
 |Action|WiSPPN|PIW|**DEASFN**|                       
-| :------| :------: | :------: | :------: |
+| :------:| :------: | :------: | :------: |
 |Walk|23.58%|39.87%|**61.14%**|
 |Wave|25.92%|33.06%|**45.81%**|
 |Jump|22.12%|37.91%|**58.11%**|
@@ -135,11 +135,11 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 * Comparative results against other methods on our GPE benchmark (PCK@20):
 
 |# Person|PIW|**DEASFN**|                       
-| :------| :------: | :------: |
+| :------:| :------: | :------: |
 |1-person|53.37%|**72.65%**|
 |2-person|49.31%|**65.39%**|
 |3-person|19.54%|**34.75%**|
-|>= person|22.66%|**39.12%**|
+|>=4 person|22.66%|**39.12%**|
 
 
 
