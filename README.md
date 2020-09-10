@@ -8,14 +8,65 @@
 * [Dataset](#dataset)
 
 * [Visulization](#visulization)
-    * [Comparative Results](#Comparative)
-    * [Positive Cases of DEASFN](#Some)
+
 * [Result](#result)
 
 ## Architecture
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/architecture.png)
 
 ## Dataset
+
+<table>
+    <tr>
+        <td colspan="2">GPE</td> 
+        <td colspan="2">SPE</td> 
+   </tr>
+    <tr>
+        <td># Person</td>
+        <td>Number</td>
+        <td>Action</td>
+        <td>Number</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>12,884</td>
+        <td>Walk</td>
+        <td>78,852</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>18,879</td>
+        <td>Wave</td>
+        <td>77,431</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>27,694</td>
+        <td>Jump</td>
+        <td>40,670</td>
+    </tr>
+    <tr>
+        <td>>=4</td>
+        <td>28,178</td>
+        <td>Run</td>
+        <td>41,238</td>
+    </tr>
+    <tr>
+        <td>Total</td>
+        <td>87,635</td>
+        <td>Total</td>
+        <td>238,191</td>
+    </tr>
+    
+</table>
+
+|GPE|SPE|                      
+| :------| :------: |
+|WiSPPN[1]|  69.82%    | X   |
+|Person-in-WiFi[2] | 77.06% | 61.58%|
+|**MDT-GCN(ours)**|**82.26%**|**71.58%**|
+
+
 Place | Type | Url | Place | Type | Url
 :---:| :---: | :---: | :---:| :---: | :---:
 P1 | single-person 01 | https://reurl.cc/oLE0bV | P1 | single-person 02 | https://reurl.cc/E75GNa
@@ -29,10 +80,10 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Visulization
-### Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
+* Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/comparison.png)
 
-### Some positive cases of DEASFN on our two benchmarks
+* Some positive cases of DEASFN on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
