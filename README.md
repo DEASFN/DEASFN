@@ -18,44 +18,44 @@
 
 <table>
     <tr>
-        <td colspan="2">GPE</td> 
-        <td colspan="2">SPE</td> 
+        <td colspan="2" align="center">GPE</td> 
+        <td colspan="2" align="center">SPE</td> 
    </tr>
     <tr>
-        <td># Person</td>
-        <td>Number</td>
-        <td>Action</td>
-        <td>Number</td>
+        <td align="center"># Person</td>
+        <td align="center">Number</td>
+        <td align="center">Action</td>
+        <td align="center">Number</td>
     </tr>
     <tr>
-        <td>1</td>
-        <td>12,884</td>
-        <td>Walk</td>
-        <td>78,852</td>
+        <td align="center">1</td>
+        <td align="center">12,884</td>
+        <td align="center">Walk</td>
+        <td align="center">78,852</td>
     </tr>
     <tr>
-        <td>2</td>
-        <td>18,879</td>
-        <td>Wave</td>
-        <td>77,431</td>
+        <td align="center">2</td>
+        <td align="center">18,879</td>
+        <td align="center">Wave</td>
+        <td align="center">77,431</td>
     </tr>
     <tr>
-        <td>3</td>
-        <td>27,694</td>
-        <td>Jump</td>
-        <td>40,670</td>
+        <td align="center">3</td>
+        <td align="center">27,694</td>
+        <td align="center">Jump</td>
+        <td align="center">40,670</td>
     </tr>
     <tr>
-        <td>>=4</td>
-        <td>28,178</td>
-        <td>Run</td>
-        <td>41,238</td>
+        <td align="center">>=4</td>
+        <td align="center">28,178</td>
+        <td align="center">Run</td>
+        <td align="center">41,238</td>
     </tr>
     <tr>
-        <td>Total</td>
-        <td>87,635</td>
-        <td>Total</td>
-        <td>238,191</td>
+        <td align="center">Total</td>
+        <td align="center">87,635</td>
+        <td align="center">Total</td>
+        <td align="center">238,191</td>
     </tr>
     
 </table>
