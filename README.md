@@ -84,7 +84,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Result
-* Comparisons on the proposed benchmarks:
+* **Comparisons on the proposed benchmarks:**
 
 <table>
     <tr>
@@ -122,7 +122,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
     </tr>
 </table>
 
-* Comparative results against other methods on our SPE benchmark (PCK@20):
+* **Comparative results against other methods on our SPE benchmark (PCK@20):**
 
 |Action|WiSPPN|PIW|**DEASFN**|                       
 | :------:| :------: | :------: | :------: |
@@ -132,7 +132,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 |Run|15.82%|20.99%|**35.15%**|
 
 
-* Comparative results against other methods on our GPE benchmark (PCK@20):
+* **Comparative results against other methods on our GPE benchmark (PCK@20):**
 
 |# Person|PIW|**DEASFN**|                       
 | :------:| :------: | :------: |
@@ -140,6 +140,16 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 |2-person|49.31%|**65.39%**|
 |3-person|19.54%|**34.75%**|
 |>=4 person|22.66%|**39.12%**|
+
+* **Ablation study on our SPE benchmark:**
+
+|Model|Architecture|PCK@20|                       
+| :------:| :------: | :------: |
+|1|SFN|44.99%|
+|2|ASFN|45.95%|
+|3|DEASFN, D=1|48.08%|
+|**4|DEASFN, D=3 (Proposed)|50.05%|**
+|5|DEASFN, D=5|45.95%|
 
 
 
