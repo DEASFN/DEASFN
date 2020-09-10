@@ -8,7 +8,8 @@
 * [Dataset](#dataset)
 
 * [Visulization](#visulization)
-
+    * [Comparative Results](#Comparative  visualization  of  DEASFN  and  two models (PIW[2] and WiSPPN[1]))
+    * [Positive Cases of DEASFN](Some positive cases of DEASFN on our two benchmarks)
 * [Result](#result)
 
 ## Architecture
