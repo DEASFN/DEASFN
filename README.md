@@ -84,7 +84,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Result
-* The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+* Comparisons on the proposed benchmarks:
 
 <table>
     <tr>
@@ -122,7 +122,7 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
     </tr>
 </table>
 
-* The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+* Comparative results against other methods on our SPE benchmark (PCK@20):
 
 |Action|WiSPPN|PIW|**DEASFN**|                       
 | :------| :------: | :------: | :------: |
@@ -130,6 +130,16 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 |Wave|25.92%|33.06%|**45.81%**|
 |Jump|22.12%|37.91%|**58.11%**|
 |Run|15.82%|20.99%|**35.15%**|
+
+
+* Comparative results against other methods on our GPE benchmark (PCK@20):
+
+|# Person|PIW|**DEASFN**|                       
+| :------| :------: | :------: |
+|1-person|53.37%|**72.65%**|
+|2-person|49.31%|**65.39%**|
+|3-person|19.54%|**34.75%**|
+|>= person|22.66%|**39.12%**|
 
 
 
