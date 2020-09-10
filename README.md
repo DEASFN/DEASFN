@@ -144,11 +144,11 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 * **Ablation study on our SPE benchmark:**
 
 |Model|Architecture|PCK@20|                       
-| :------:| :------: | :------: |
+| :------:| :------| :------: |
 |1|SFN|44.99%|
 |2|ASFN|45.95%|
 |3|DEASFN, D=1|48.08%|
-|**4|DEASFN, D=3 (Proposed)|50.05%|**
+|**4**|**DEASFN, D=3 (Proposed)**|**50.05%**|
 |5|DEASFN, D=5|45.95%|
 
 
