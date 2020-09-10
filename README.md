@@ -1,6 +1,6 @@
-# Multi-rate-Directed-T-GCN
-    Aggregate Together We See Through: 
-    WiFi-based Through-wall2D Human Pose Estimation via Multi-rate Directed T-GCN
+# Dilated Evolving Attentive Spatial-Frequency Network
+    Seeing the Unseen: 
+    Wifi-based 2D Human Pose Estimation via Dilated Evolving Attentive Spatial-Frequency Network
 
 
 * [Architecture](#architecture)
@@ -28,12 +28,12 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Visulization
-Comparative  visualization  of  DEASFN  and  twomodels (PIW[2] and WiSPPN[1])
+Comparative  visualization  of  DEASFN  and  two models (PIW[2] and WiSPPN[1])
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/comparison.png)
 
 Demo
 ----
-results on two benchmarks
+results on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
@@ -51,10 +51,6 @@ The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
 |Person-in-WiFi[2] | 73.67%|
 |**MDT-GCN(ours)**|**80.72**%|
 
-Gap between Camera-based(Openpose) and Labeld Ground Truth.(Ramdomly sample 100 examples)
-|Camera-based(Openpose)|
-| :------:| 
-|**100**%|
 
 [1] Fei Wang, Stanislav Panev, Ziyi Dai, Jinsong Han, and Dong Huang. 2019. Canwifi estimate person pose?arXiv preprint arXiv:1904.00277(2019).
 
