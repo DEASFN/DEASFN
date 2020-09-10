@@ -60,13 +60,6 @@
     
 </table>
 
-|GPE|SPE|                      
-| :------| :------: |
-|WiSPPN[1]|  69.82%    | X   |
-|Person-in-WiFi[2] | 77.06% | 61.58%|
-|**MDT-GCN(ours)**|**82.26%**|**71.58%**|
-
-
 Place | Type | Url | Place | Type | Url
 :---:| :---: | :---: | :---:| :---: | :---:
 P1 | single-person 01 | https://reurl.cc/oLE0bV | P1 | single-person 02 | https://reurl.cc/E75GNa
@@ -88,7 +81,45 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Result
-The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+* The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
+
+<table>
+    <tr>
+        <td align="center">Metric</td> 
+        <td align="center">Benchmark</td> 
+        <td align="center">WiSPPN[1]</td> 
+        <td align="center">PIW[2]</td> 
+        <td align="center">**DEASFN**</td> 
+   </tr>
+    <tr>
+        <td align="center" rowspan='2'>MPJPE</td>
+        <td align="center">SPE</td>
+        <td align="center">44.16</td>
+        <td align="center">78.88</td>
+        <td align="center">**37.34**</td>
+    </tr>
+    <tr>
+        <td align="center">GPE</td>
+        <td align="center">X</td>
+        <td align="center">119.60</td>
+        <td align="center">**44.14**</td>
+    </tr>
+    <tr>
+        <td align="center" rowspan='2'>PCK@20</td>
+        <td align="center">SPE</td>
+        <td align="center">21.86%</td>
+        <td align="center">32.96%</td>
+        <td align="center">**50.05%**</td>
+    </tr>
+    <tr>
+        <td align="center">GPE</td>
+        <td align="center">X</td>
+        <td align="center">27.64%</td>
+        <td align="center">*43.98%*</td>
+    </tr>
+</table>
+
+
 |Method|single-person|multi-people|                       
 | :------| :------: | :------: |
 |WiSPPN[1]|  69.82%    | X   |
@@ -102,6 +133,6 @@ The PCK@20(Percentage of Correct Keypoint)of provided models are shown here:
 |**MDT-GCN(ours)**|**80.72**%|
 
 
-[1] Fei Wang, Stanislav Panev, Ziyi Dai, Jinsong Han, and Dong Huang. 2019. Canwifi estimate person pose?arXiv preprint arXiv:1904.00277(2019).
+[1] Fei Wang, Stanislav Panev, Ziyi Dai, Jinsong Han, and Dong Huang. 2019. Can wifi estimate person pose?arXiv preprint arXiv:1904.00277(2019).
 
 [2] Fei Wang, Sanping Zhou, Stanislav Panev, Jinsong Han, and Dong Huang. 2019.Person-in-WiFi: Fine-grained person perception using WiFi. InProceedings of theIEEE International Conference on Computer Vision. 5452–5461.
