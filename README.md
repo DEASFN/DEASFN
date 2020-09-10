@@ -28,12 +28,10 @@ P2 | multi-people | https://reurl.cc/4RVQ7V
 
 
 ## Visulization
-Comparative  visualization  of  DEASFN  and  two models (PIW[2] and WiSPPN[1])
+*Comparative  visualization  of  DEASFN  and  two models (PIW[2] and WiSPPN[1])
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/comparison.png)
 
-Demo
-----
-results on our two benchmarks
+*Some positive cases of DEASFN on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
