@@ -21,44 +21,56 @@
 
 <table>
     <tr>
-        <td colspan="2" align="center">GPE</td> 
-        <td colspan="2" align="center">SPE</td> 
+        <td colspan="3" align="center">GPE</td> 
+        <td colspan="3" align="center">SPE</td> 
    </tr>
     <tr>
         <td align="center"># Person</td>
         <td align="center">Number</td>
+        <td align="center">Url</td>
         <td align="center">Action</td>
         <td align="center">Number</td>
+        <td align="center">Url</td>
     </tr>
     <tr>
         <td align="center">1</td>
         <td align="center">12,884</td>
+        <td align="center"></td>
         <td align="center">Walk</td>
         <td align="center">78,852</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td align="center">2</td>
         <td align="center">18,879</td>
+        <td align="center"></td>
         <td align="center">Wave</td>
         <td align="center">77,431</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td align="center">3</td>
         <td align="center">27,694</td>
+        <td align="center"></td>
         <td align="center">Jump</td>
         <td align="center">40,670</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td align="center">>=4</td>
         <td align="center">28,178</td>
+        <td align="center"></td>
         <td align="center">Run</td>
         <td align="center">41,238</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td align="center"><b>Total</b></td>
         <td align="center"><b>87,635</b></td>
+        <td align="center"></td>
         <td align="center"><b>Total</b></td>
         <td align="center"><b>238,191</b></td>
+        <td align="center"></td>
     </tr>
     
 </table>
