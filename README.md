@@ -63,17 +63,6 @@
     
 </table>
 
-Place | Type | Url | Place | Type | Url
-:---:| :---: | :---: | :---:| :---: | :---:
-P1 | single-person 01 | https://reurl.cc/oLE0bV | P1 | single-person 02 | https://reurl.cc/E75GNa
-P1 | single-person 03 | https://reurl.cc/MvKRmm | P1 | single-person 04 | https://reurl.cc/ZOLWjM
-P1 | single-person 05 | https://reurl.cc/z8nYW6  | P1 | single-person 06 | https://reurl.cc/1xN1oV
-P1 | multi-people | https://reurl.cc/9EmVA8 | P1 | wall | https://reurl.cc/WdKDY5
-P2 | single-person 01 | https://reurl.cc/5l9MyR | P2 | single-person 02 | https://reurl.cc/62nN3k
-P2 | single-person 03 | https://reurl.cc/j7Klj2 | P2 | single-person 04 | https://reurl.cc/b5K9V6
-P2 | single-person 05 | https://reurl.cc/3DqxXL | P2 | single-person 06 | https://reurl.cc/exKDzm
-P2 | multi-people | https://reurl.cc/4RVQ7V 
-
 
 ## Visulization
 #### Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
