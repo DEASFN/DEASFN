@@ -72,6 +72,8 @@
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
+#### Comparative visualization of DEASFN and camera-based method(Openpose)
+`From the result, we can easily observe that DEASFN is better than the camera-based method in dark environment. DEASFN can distinguish between the front of person and the back. However, the camera-based method can not achieve the goal under poor ilumination.`
 |**DEASFN**|Openpose|                       
 | :------:| :------: |
 |![image](https://github.com/DEASFN/DEASFN/blob/master/pic/DEASFN.gif)|![image](https://github.com/DEASFN/DEASFN/blob/master/pic/openpose.gif)|
