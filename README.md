@@ -72,6 +72,11 @@
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
 
+|**DEASFN**|Openpose|                       
+| :------:| :------: |
+|![image](https://github.com/DEASFN/DEASFN/blob/master/pic/DEASFN.gif)|![image](https://github.com/DEASFN/DEASFN/blob/master/pic/openpose.gif)|
+
+
 ## Result
 * **Comparisons on the proposed benchmarks:**
 
