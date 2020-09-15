@@ -34,14 +34,13 @@ def TakeIndex(elem):
 
 def LoadDataset(DatasetName):
 
+    # load the training data
     if DatasetName == 'SPE':
-        # load the training data
         data = []
-        for subject in TrainArgs.subjects:
-            for action in TrainArgs.actions:
-                data.append(glob.glob(TrainArgs.DataPath + 'SPE/' + subject + '/' + action + '/train/*.mat'))
+        for action in TrainArgs.actions:
+            for subject in TrainArgs.subjects:
+                data.append(glob.glob(TrainArgs.DataPath + 'SPE/' + action + '/' + subject +  '/train/*.mat'))
     elif DatasetName == 'GPE':
-        # load the training data
         data = []
         for path in TrainArgs.GpePaths:
             data.append(glob.glob(TrainArgs.DataPath + 'GPE/' + path + '/train/*.mat'))
@@ -55,8 +54,9 @@ def LoadDataset(DatasetName):
 
     # pack the data
     TrainData = []
+    TrainRatio = TrainArgs.SpeTrainRatio if DatasetName == 'SPE' else TrainArgs.GpeTrainRatio
     for i in range(len(data)) :
-        for j in range(0, int(len(data[i])*TrainArgs.TrainRatio), TrainArgs.NumFrames):
+        for j in range(0, int(len(data[i])*TrainRatio), TrainArgs.NumFrames):
             per_sequence = []
             for k in range(TrainArgs.NumFrames):
                 per_sequence.append(data[i][j+k*TrainArgs.DilatedRate])
@@ -116,7 +116,7 @@ def train(TrainData):
             heatmaps = heatmaps.permute(1, 0, 2, 3, 4).reshape(-1, 57, 46, 62)
 
             mask = torch.ones(TrainArgs.BatchSize*TrainArgs.NumFrames, 57, 46, 62).cuda()
-            mask = k * torch.abs(heatmaps) + mask
+            mask = TrainArgs.k * torch.abs(heatmaps) + mask
 
             PredictJH, PredictPAF = model(CsiDatas)
             prediction = torch.cat((PredictJH, PredictPAF), axis=1)
@@ -136,6 +136,9 @@ def train(TrainData):
         t = time.localtime()
         current_time = time.strftime("%H:%M:%S", t)
         print('Current time:', current_time)
+
+        if not os.path.exists('./checkpoint'):
+            os.makedirs('./checkpoint')
 
         torch.save({
             'epoch': epoch + 1,
