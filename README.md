@@ -84,8 +84,13 @@
 ````
 $ git clone https://github.com/DEASFN/DEASFN.git
 ````
-Download SPE/GPE dataset on `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`, and unzip them.
-
+Download SPE or GPE dataset in `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`.
+Please make sure that all four zipfile in `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`.
+````
+$ cd DEASFN/dataset/SPE   or   $ cd DEASFN/dataset/GPE
+$ chmod +x SPE.sh   or   $ chmod +x GPE.sh
+$ ./SPE.sh   or   $ ./GPE.sh
+````
 #### Setup
 * create the virtual enciorment
 ````
