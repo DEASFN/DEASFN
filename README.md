@@ -85,17 +85,20 @@
 Download SPE/GPE dataset on `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`, and unzip them.
 
 #### Setup
-create the virtual enciorment
-
+* create the virtual enciorment
+````
     cd DEASFN/
     python3 -m venv env
-activate the virtual environment
-
+````
+* activate the virtual environment
+````
     source env/bin/activate
-install the necessary packages
-
+````
+* install the necessary packages
+````
     chmod +x setup.sh
     ./setup.sh
+````
 
 #### Train
 You can adjust the training parameters in `config/args.py`
