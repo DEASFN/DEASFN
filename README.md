@@ -85,7 +85,10 @@
 $ git clone https://github.com/DEASFN/DEASFN.git
 ````
 Download SPE _or_ GPE dataset in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
+
 Please make sure that all four zipfile in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
+
+* Take SPE as an example
 ````
 $ cd DEASFN/dataset/SPE     or     $ cd DEASFN/dataset/GPE
 $ chmod +x SPE.sh     or     $ chmod +x GPE.sh
