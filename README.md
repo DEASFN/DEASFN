@@ -86,7 +86,7 @@ $ git clone https://github.com/DEASFN/DEASFN.git
 ````
 Download SPE _or_ GPE dataset in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
-Please make sure that all four zipfile in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
+Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
 * Take SPE as an example (You can substitute `GPE` for `SPE`)
 ````
