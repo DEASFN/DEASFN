@@ -81,7 +81,9 @@
 ## Usage
 
 #### Install
-    git clone https://github.com/DEASFN/DEASFN.git
+````
+$ git clone https://github.com/DEASFN/DEASFN.git
+````
 Download SPE/GPE dataset on `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`, and unzip them.
 
 #### Setup
