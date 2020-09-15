@@ -54,7 +54,7 @@
         <td align="center">https://reurl.cc/m9ZYmY</td>
         <td align="center">Jump</td>
         <td align="center">40,670</td>
-        <td align="center"></td>
+        <td align="center">https://reurl.cc/9X1bAY</td>
     </tr>
     <tr>
         <td align="center">>=4</td>
@@ -62,7 +62,7 @@
         <td align="center">https://reurl.cc/2g8Qd9</td>
         <td align="center">Run</td>
         <td align="center">41,238</td>
-        <td align="center"></td>
+        <td align="center">https://reurl.cc/v1mKjk</td>
     </tr>
     <tr>
         <td align="center"><b>Total</b></td>
