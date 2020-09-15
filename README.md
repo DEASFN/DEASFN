@@ -40,7 +40,7 @@
         <td align="center">https://reurl.cc/EzXD8R</td>
         <td align="center">Walk</td>
         <td align="center">78,852</td>
-        <td align="center">https://reurl.cc/zzrK97</td>
+        <td align="center">https://reurl.cc/OqEL9D</td>
     </tr>
     <tr>
         <td align="center">2</td>
@@ -48,7 +48,7 @@
         <td align="center">https://reurl.cc/ygmX1a</td>
         <td align="center">Wave</td>
         <td align="center">77,431</td>
-        <td align="center">https://reurl.cc/pyZK7r</td>
+        <td align="center">https://reurl.cc/Z71vGQ</td>
     </tr>
     <tr>
         <td align="center">3</td>
@@ -56,7 +56,7 @@
         <td align="center">https://reurl.cc/e8Wa5W</td>
         <td align="center">Jump</td>
         <td align="center">40,670</td>
-        <td align="center">https://reurl.cc/9X1bAY</td>
+        <td align="center">https://reurl.cc/j5RYNM</td>
     </tr>
     <tr>
         <td align="center">>=4</td>
@@ -64,7 +64,7 @@
         <td align="center">https://reurl.cc/m9ZXd7</td>
         <td align="center">Run</td>
         <td align="center">41,238</td>
-        <td align="center">https://reurl.cc/v1mKjk</td>
+        <td align="center">https://reurl.cc/EzXL3m</td>
     </tr>
     <tr>
         <td align="center"><b>Total</b></td>
