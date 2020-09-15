@@ -87,29 +87,29 @@ Download SPE/GPE dataset on `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`, and un
 #### Setup
 * create the virtual enciorment
 ````
-    cd DEASFN/
-    python3 -m venv env
+$ cd DEASFN/
+$ python3 -m venv env
 ````
 * activate the virtual environment
 ````
-    source env/bin/activate
+$ source env/bin/activate
 ````
 * install the necessary packages
 ````
-    chmod +x setup.sh
-    ./setup.sh
+$ chmod +x setup.sh
+$ ./setup.sh
 ````
 
 #### Train
 You can adjust the training parameters in `config/args.py`
-
-    python3 TrainDEASFN --dataset=SPE   or   python3 TrainDEASFN --dataset=GPE
-
+````
+$ python3 TrainDEASFN --dataset=SPE   or   $ python3 TrainDEASFN --dataset=GPE
+````
 #### Test
 You can adjust the testing parameters in `config/args.py`
-
-    python3 TestDEASFN --dataset=SPE   or   python3 TestDEASFN --dataset=GPE
-
+````
+$ python3 TestDEASFN --dataset=SPE   or   $ python3 TestDEASFN --dataset=GPE
+````
 ## Visulization
 #### Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/comparison.png)
