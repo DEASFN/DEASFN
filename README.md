@@ -84,16 +84,21 @@
     git clone https://github.com/DEASFN/DEASFN.git
 Download SPE/GPE dataset on `DEASFN/dataset/SPE` or `DEASFN/dataset/GPE`, and unzip them.
 
+#### Setup
+    cd DEASFN/
+    python3 -m venv env
+    source env/bin/activate
+    chmod +x setup.sh
+    ./setup.sh
+
 #### Train
 You can adjust the training parameters in `config/args.py`
 
-    cd DEASFN/
     python3 TrainDEASFN --dataset=SPE   or   python3 TrainDEASFN --dataset=GPE
 
 #### Test
 You can adjust the testing parameters in `config/args.py`
 
-    cd DEASFN/
     python3 TestDEASFN --dataset=SPE   or   python3 TestDEASFN --dataset=GPE
 
 ## Visulization
