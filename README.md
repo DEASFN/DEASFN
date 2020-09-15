@@ -88,7 +88,7 @@ Download SPE _or_ GPE dataset in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
 Please make sure that all four zipfile in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
-* Take SPE as an example
+* Take SPE as an example (You can substitute `GPE` for `SPE`)
 ````
 $ cd DEASFN/dataset/SPE
 $ chmod +x SPE.sh
