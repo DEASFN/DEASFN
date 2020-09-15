@@ -7,6 +7,8 @@
 
 * [Dataset](#dataset)
 
+* [Usage](#usage)
+
 * [Visulization](#visulization)
 
 * [Result](#result)
@@ -74,6 +76,9 @@
     </tr>
     
 </table>
+
+
+## Usage
 
 
 ## Visulization
