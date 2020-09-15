@@ -79,6 +79,9 @@
 
 
 ## Usage
+
+    git clone https://github.com/DEASFN/DEASFN.git
+
 Download SPE/GPE dataset on `DEASFN/dataset/`, and unzip them.
 
 #### Train
