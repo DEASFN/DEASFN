@@ -38,7 +38,7 @@
         <td align="center">https://reurl.cc/avaxyG</td>
         <td align="center">Walk</td>
         <td align="center">78,852</td>
-        <td align="center"></td>
+        <td align="center">https://reurl.cc/zzrK97</td>
     </tr>
     <tr>
         <td align="center">2</td>
@@ -46,7 +46,7 @@
         <td align="center">https://reurl.cc/VXRWd6</td>
         <td align="center">Wave</td>
         <td align="center">77,431</td>
-        <td align="center"></td>
+        <td align="center">https://reurl.cc/pyZK7r</td>
     </tr>
     <tr>
         <td align="center">3</td>
@@ -67,10 +67,10 @@
     <tr>
         <td align="center"><b>Total</b></td>
         <td align="center"><b>87,635</b></td>
-        <td align="center"></td>
+        <td align="center">X</td>
         <td align="center"><b>Total</b></td>
         <td align="center"><b>238,191</b></td>
-        <td align="center"></td>
+        <td align="center">X</td>
     </tr>
     
 </table>
