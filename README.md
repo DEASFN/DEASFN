@@ -90,9 +90,9 @@ Please make sure that all four zipfile in `DEASFN/dataset/SPE` _or_ `DEASFN/data
 
 * Take SPE as an example
 ````
-$ cd DEASFN/dataset/SPE     or     $ cd DEASFN/dataset/GPE
-$ chmod +x SPE.sh     or     $ chmod +x GPE.sh
-$ ./SPE.sh     or     $ ./GPE.sh
+$ cd DEASFN/dataset/SPE
+$ chmod +x SPE.sh
+$ ./SPE.sh
 ````
 #### Setup
 * create the virtual enciorment
