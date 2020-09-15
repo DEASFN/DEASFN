@@ -80,8 +80,14 @@
 
 ## Usage
 Download SPE/GPE dataset on `DEASFN/dataset/`, and unzip them.
+
+### Train
     cd DEASFN/
     python3 TrainDEASFN --dataset=SPE   or  python3 TrainDEASFN --dataset=GPE
+
+### Test
+    cd DEASFN/
+    python3 TestDEASFN --dataset=SPE   or  python3 TestDEASFN --dataset=GPE
 
 ## Visulization
 #### Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
