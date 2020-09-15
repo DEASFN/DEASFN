@@ -90,10 +90,9 @@
 
 
 #### Comparative visualization of DEASFN and camera-based method(Openpose)
-From this comparison, we can easily observe that DEASFN is better than the camera-based method in dark environment. DEASFN can correctly distinguish between the front of person and the back. However, the camera-based method is possible to get mixed up under poor illumination. Furthermore, Openpose is even likely to loss some keypoints, such as wrist, ankle, and so forth.
+From this comparison, we can easily observe that DEASFN is better than the camera-based method in dark environment.  Under poor illumination, Openpose is likely to loss some keypoints, such as wrist, ankle, and so forth. However, DEASFN can correctly return all keypoints.
 |**DEASFN**|Openpose|                       
 | :------:| :------: |
-|![image](https://github.com/DEASFN/DEASFN/blob/master/pic/DEASFN1.gif)|![image](https://github.com/DEASFN/DEASFN/blob/master/pic/openpose1.gif)|
 |![image](https://github.com/DEASFN/DEASFN/blob/master/pic/DEASFN2.gif)|![image](https://github.com/DEASFN/DEASFN/blob/master/pic/openpose2.gif)|
 
 
