@@ -127,6 +127,26 @@ $ python3 TestDeasfn.py --dataset=SPE     or     $ python3 TestDeasfn.py --datas
 #### Some positive cases of DEASFN on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
+#### Four GIF images for each action
+<table>
+    <tr>
+        <td align="center">Walk</td> 
+        <td align="center">Wave</td> 
+   </tr>
+    <tr>
+        <td align="center">![image](https://github.com/DEASFN/DEASFN/blob/master/pic/walk.png)</td>
+        <td align="center">![image](https://github.com/DEASFN/DEASFN/blob/master/pic/wave.png)</td>
+    </tr>
+    <tr>
+        <td align="center">Jump</td>
+        <td align="center">Run</td>
+    </tr>
+    <tr>
+        <td align="center">![image](https://github.com/DEASFN/DEASFN/blob/master/pic/jump.png)</td>
+        <td align="center">![image](https://github.com/DEASFN/DEASFN/blob/master/pic/run.png)</td>
+    </tr>
+</table>
+
 
 #### Comparative visualization of DEASFN and camera-based method(Openpose)
 From this comparison, we can easily observe that DEASFN is better than the camera-based method in dark environment.  Under poor illumination, Openpose is likely to loss some keypoints, such as wrist, ankle, and so forth. However, DEASFN can correctly return all keypoints.
