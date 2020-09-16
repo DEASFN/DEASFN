@@ -113,12 +113,12 @@ $ ./setup.sh
 #### Train
 You can adjust the training parameters in `config/args.py`
 ````
-$ python3 TrainDEASFN --dataset=SPE     or     $ python3 TrainDEASFN --dataset=GPE
+$ python3 TrainDeasfn.py--dataset=SPE     or     $ python3 TrainDeasfn.py --dataset=GPE
 ````
 #### Test
 You can adjust the testing parameters in `config/args.py`
 ````
-$ python3 TestDEASFN --dataset=SPE     or     $ python3 TestDEASFN --dataset=GPE
+$ python3 TestDeasfn.py --dataset=SPE     or     $ python3 TestDeasfn.py --dataset=GPE
 ````
 ## Visulization
 #### Comparative visualization of DEASFN and two models (PIW[2] and WiSPPN[1])
