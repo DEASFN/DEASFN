@@ -100,7 +100,7 @@ $ source env/bin/activate
 $ chmod +x setup.sh
 $ ./setup.sh
 ````
-If there are errors about gdown, you can ignore them.
+If there are errors about _gdown_ package, you can ignore them.
 
 #### Download the dataset
 * Download SPE _or_ GPE dataset
@@ -108,7 +108,7 @@ If there are errors about gdown, you can ignore them.
 $ chmod +x download_SPE.sh     or     $ chmod +x download_GPE.sh     
 $ ./download_SPE.sh     or     $ ./download_GPE.sh
 ````
-If errors occur, you can download by yourself using the link provided above.
+If errors occur, you can download by yourself using the links provided above.
 Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
 * unzip the dataset ( You can substitute `GPE` for `SPE`)
