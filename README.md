@@ -108,7 +108,7 @@ If there are errors about _gdown_ package, you can ignore them.
 $ chmod +x download_SPE.sh     or     $ chmod +x download_GPE.sh     
 $ ./download_SPE.sh     or     $ ./download_GPE.sh
 ````
-When you find the download has exited, you need to press `ctrl+c` to terminate the sh file. 
+When you find the download has exited, you need to press `ctrl+c` to terminate the sh file by yourself. 
 
 If errors occur, you can download by yourself using the links provided above.
 
