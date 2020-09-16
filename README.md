@@ -81,23 +81,10 @@
 ## Usage
 
 #### Install
-* clone whole directory of DEASFN
 ````
 $ git clone https://github.com/DEASFN/DEASFN.git
 ````
-* Download SPE _or_ GPE dataset
-````
-$ ./download_SPE.sh     or     ./download_GPE.sh
-````
-If errors occur, you can download by yourself using the link provided above.
-Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
-* unzip the dataset ( You can substitute `GPE` for `SPE`)
-````
-$ cd DEASFN/dataset/SPE
-$ chmod +x SPE.sh
-$ ./SPE.sh
-````
 #### Setup
 * create the virtual enciorment
 ````
@@ -112,6 +99,21 @@ $ source env/bin/activate
 ````
 $ chmod +x setup.sh
 $ ./setup.sh
+````
+
+#### Download the dataset
+* Download SPE _or_ GPE dataset
+````
+$ ./download_SPE.sh     or     ./download_GPE.sh
+````
+If errors occur, you can download by yourself using the link provided above.
+Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
+
+* unzip the dataset ( You can substitute `GPE` for `SPE`)
+````
+$ cd DEASFN/dataset/SPE
+$ chmod +x SPE.sh
+$ ./SPE.sh
 ````
 
 #### Train
