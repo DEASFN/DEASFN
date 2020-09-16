@@ -134,8 +134,8 @@ $ python3 TestDeasfn.py --dataset=SPE     or     $ python3 TestDeasfn.py --datas
         <td align="center">Wave</td> 
    </tr>
     <tr>
-        <td align="center">![image](https://github.com/DEASFN/DEASFN/blob/master/pic/walk.png)</td>
-        <td align="center">![image](https://github.com/DEASFN/DEASFN/blob/master/pic/wave.png)</td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk.png"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave.png"></td>
     </tr>
     <tr>
         <td align="center">Jump</td>
