@@ -86,11 +86,13 @@
 $ git clone https://github.com/DEASFN/DEASFN.git
 ````
 * Download SPE _or_ GPE dataset
+
+If errors occur, you can download by yourself using the link provided above.
+
+Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 ````
 $ ./download_SPE.sh     or     ./download_GPE.sh
 ````
-If errors occur, you can download by yourself using the link provided above 
-Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
 * unzip the dataset ( You can substitute `GPE` for `SPE`)
 ````
