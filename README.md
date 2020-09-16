@@ -108,7 +108,10 @@ If there are errors about _gdown_ package, you can ignore them.
 $ chmod +x download_SPE.sh     or     $ chmod +x download_GPE.sh     
 $ ./download_SPE.sh     or     $ ./download_GPE.sh
 ````
+When you find the download has exited, you need to press `ctrl+c` to terminate the sh file. 
+
 If errors occur, you can download by yourself using the links provided above.
+
 Please make sure that all four zipfiles in `DEASFN/dataset/SPE` _or_ `DEASFN/dataset/GPE`.
 
 * unzip the dataset ( You can substitute `GPE` for `SPE`)
