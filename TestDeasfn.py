@@ -3,7 +3,7 @@ import torch
 from torch.autograd import Variable
 import hdf5storage
 import os
-from models.Deasfn import Deasfn
+from model.Deasfn import Deasfn
 from config.args import TestArgs
 from tqdm import tqdm
 import shutil
