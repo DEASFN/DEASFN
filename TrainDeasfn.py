@@ -7,7 +7,7 @@ import hdf5storage
 from random import shuffle
 import time
 import os
-from models.Deasfn import Deasfn
+from model.Deasfn import Deasfn
 from config.args import TrainArgs
 import sys , getopt
 
