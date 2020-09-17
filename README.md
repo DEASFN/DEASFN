@@ -137,7 +137,7 @@ $ python3 TestDeasfn.py --dataset=SPE     or     $ python3 TestDeasfn.py --datas
 #### Some positive cases of DEASFN on our two benchmarks
 ![image](https://github.com/DEASFN/DEASFN/blob/master/pic/demo.png)
 
-#### Four GIF images for each action
+#### Comparative GIF images of DEASFN and two models (PIW[2] and WiSPPN[1]) for each action
 <table>
     <tr>
         <td align="center"></td> 
