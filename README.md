@@ -140,30 +140,32 @@ $ python3 TestDeasfn.py --dataset=SPE     or     $ python3 TestDeasfn.py --datas
 #### Four GIF images for each action
 <table>
     <tr>
-        <td align="center" colspan='4'>DEASFN</td> 
+        <td align="center">DEASFN</td> 
+        <td align="center">PIW</td>
+        <td align="center">WiSPPN</td>
    </tr>
     <tr>
+        <td align="center">Walk</td>
         <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run.gif"></td>
-    </tr>
-    <tr>
-        <td align="center" colspan='4'>PIW</td> 
-   </tr>
-    <tr>
         <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk_wisppn.gif"></td>
     </tr>
     <tr>
-        <td align="center" colspan='4'>WiSPPN</td> 
+        <td align="center">Wave</td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave_wisppn.gif"></td>
+    </tr>
+    <tr>
+         <td align="center">Jump</td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump_wisppn.gif"></td>
    </tr>
     <tr>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk_wisppn.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave_wisppn.gif"></td>
-        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump_wisppn.gif"></td>
+        <td align="center">Run</td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run_PIW.gif"></td>
         <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run_wisppn.gif"></td>
     </tr>
 </table>
