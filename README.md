@@ -140,10 +140,25 @@ $ python3 TestDeasfn.py --dataset=SPE     or     $ python3 TestDeasfn.py --datas
 #### Four GIF images for each action
 <table>
     <tr>
-        <td align="center">Walk</td> 
-        <td align="center">Wave</td> 
-        <td align="center">Jump</td>
-        <td align="center">Run</td>
+        <td align="center" colspan='4'>DEASFN</td> 
+   </tr>
+    <tr>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run.gif"></td>
+    </tr>
+    <tr>
+        <td align="center" colspan='4'>PIW</td> 
+   </tr>
+    <tr>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/wave.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/jump.gif"></td>
+        <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/run.gif"></td>
+    </tr>
+    <tr>
+        <td align="center" colspan='4'>WiSPPN</td> 
    </tr>
     <tr>
         <td align="center"><img src="https://github.com/DEASFN/DEASFN/blob/master/pic/walk.gif"></td>
