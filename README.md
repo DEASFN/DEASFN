@@ -97,8 +97,7 @@ $ source env/bin/activate
 ````
 * install the necessary packages
 ````
-$ chmod +x setup.sh
-$ ./setup.sh
+$ pip install -r requirements.txt
 ````
 If there are errors about _gdown_ package, you can ignore them.
 
