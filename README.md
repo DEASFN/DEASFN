@@ -180,6 +180,13 @@ From this comparison, we can easily observe that DEASFN is better than the camer
 
 
 ## Result
+
+**PCK curve of each model:**
+![image](https://github.com/DEASFN/DEASFN/blob/master/pic/curve.jpg)
+
+**PCK of DEASFN on each joint:**
+![image](https://github.com/DEASFN/DEASFN/blob/master/pic/histogram.jpg)
+
 * **Comparisons on the proposed benchmarks:**
 
 <table>
