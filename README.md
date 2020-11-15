@@ -67,7 +67,7 @@
         <td align="center">https://reurl.cc/EzXL3m</td>
     </tr>
     <tr>
-        <td align="center">X</td>
+        <td align="center">Cross Period</td>
         <td align="center">X</td>
         <td align="center">X</td>
         <td align="center">Cross Period</td>
