@@ -239,8 +239,8 @@ From this comparison, we can easily observe that DEASFN is better than the camer
 | :------:| :------: | :------: | :------: |
 |Walk|23.58%|39.87%|**61.14%**|
 |Wave|25.92%|33.06%|**45.81%**|
-|Jump|22.12%|37.91%|**58.11%**|
-|Run|15.82%|20.99%|**35.15%**|
+|Run|22.12%|37.91%|**58.11%**|
+|Jump|15.82%|20.99%|**35.15%**|
 
 
 * **Comparative results against other methods on our GPE benchmark (PCK@20):**
